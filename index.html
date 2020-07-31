@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <!-- BX 슬라이더 -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.slider').bxSlider({
+        mode:'fade',
+        // responsive: false ,
+        controls: false,
+        auto:true,
+        pause:3000
+      });
+    });
+  </script> 
+  <!-- 파비콘 -->
+  <link rel="shortcut icon" href="favicon.png">
+  
+  <!-- 폰트 -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+ <link rel="stylesheet" href="index.css">
+
+  <title>빽다방</title>
+  
+</head>
+<body>
+  <div class="wrap">
+    <header class="header">
+      <div class="content">
+        <div class="main_logo">
+          <a href="#">
+            <img src="./images/logo.png" alt="메인로고">
+          </a>
+          <a href="#">
+            <h1>빽다방</h1>
+          </a>
+        </div>
+        
+        <a href="#">
+          <ul class="btn_ham">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </a>
+        
+      </div>
+    </header>
+    <section class="section">
+      <article class="main_banner">
+        <div class="slider">
+          <img src="./images/mainbanner01.jpg" alt="메인베너1">
+          <img src="./images/mainbanner02.jpg" alt="메인베너2">
+          <img src="./images/mainbanner03.jpg" alt="메인베너3">
+          <img src="./images/mainbanner04.jpg" alt="메인베너4">
+          <img src="./images/mainbanner05.jpg" alt="메인베너5">
+        </div>
+      </article>
+      <article class="coffee_story">
+        <img src="./images/coffee_story.jpg" alt="커피스토리">
+        <div class="coffee_story_txt content">
+          <p class="eng">The Finest Quality Coffee Plants</p>
+          <h2  class="eng">PAIK’S COFFEE STORY</h2>
+          <p>균형잡힌 바디감으로 긴여운을 남기는 빽다방 커피를 만나보세요.</p>
+        </div>
+      </article>
+      <article class="item fresh_coffee">
+        <img src="./images/free_coffee.jpg" alt="free coffee">
+        <div class="item_txt content">
+          <h3>
+            FRESH<br>
+            COFFEE
+          </h3>
+        </div>
+      </article>
+      <article class="item various_beverage">
+        <img src="./images/various_beverage.jpg" alt="various beverage">
+        <div class="item_txt content">
+          <h3>
+            VARIOUS<br>
+            BEVERAGE
+          </h3>
+        </div>
+      </article>
+      <article class="item sweet_paiks_ccino">
+        <img src="./images/sweet_paik.jpg" alt="sweet paik">
+        <div class="item_txt content">
+          <h3>
+            SWEET<br>
+            PAIK'S CCINO
+          </h3>
+        </div>
+      </article>
+      <article class="item tasty_ice_cream">
+        <img src="./images/tasty_ice_cream.jpg" alt="tasty ice cream">
+        <div class="item_txt content">
+          <h3>
+            TASTY<br>
+            ICE CREAM /<br>
+            DESSERT
+          </h3>
+        </div>
+      </article>
+      <article class="franchise_store">
+        <div class="content clearfix">
+          <div class="franchise">
+            <h3 class="eng">FRANSCHISE</h3>
+            <p>빽다방 창업안내를 도와드리겠습니다.</p>
+            <img src="./images/FRAINCHISE.png" alt="백종원">
+          </div>
+            <div class="store">
+            <h3>store</h3>
+            <p>원하는 지역의 매장을 검색해 보세요.</p>
+            <form>
+              <input type="text"placeholder="Find a store in Your area!">
+              <div class="cilcle"></div>
+              <div class="line"></div>
+            </form>
+          </div>
+        </div>
+      </article>
+      <article class="paiks_coffee_sns">
+        <h3>PAIK’S COFFEE SNS</h3>
+        <p>
+          <span>#빽다방</span>
+          <span>#빽다방신메뉴</span>
+          <span>#빽다방이벤트</span>
+        </p>
+        <hr>
+        <div class="sns_box">
+          <img src="./images/facebook.png" alt="face">
+          <img src="./images/insta.png" alt="insta">
+        </div>
+      </article>
+    </section>
+    <footer class="footer">
+      <div class="foot_logo">
+        <img src="./images/footer_logo.png" alt="">
+      </div>
+      <address>
+        (주)더본코리아 <br>
+        사업자등록번호 211-86-00870 <br>
+        대표이사 백종원<br> 
+        주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 5~6층<br>
+        팩스: 02-511-3864<br>
+        본사 대표전화: 02-549-3864<br>
+        가맹상담전화: 02-3447-0410<br>
+        고객센터: 1544-2360<br>
+      </address>
+
+      <div class="copyright eng">
+        COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
