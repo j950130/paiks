@@ -26,7 +26,7 @@ body,div,span,h1,h2,h3,h4,h5,h6,p,ul,li,section,header,footer,article,a,form,inp
 /* 헤더스타일 시작 */
 .header{
   height: 70px;
-  background-color: #ffcccc;
+  background-color: #ffffff;
 }
 .header>.content{
   padding: 0 12px;
